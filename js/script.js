@@ -12,7 +12,7 @@ const favouriteColor = prompt("Ok dear... Last question! Let me know what is you
 const passwordGenerated = userName+userSurname+favouriteColor+"21";
 
 // output-data
-document.getElementById("passwordGenerate").innerHTML = `Hi ${userName}, i generated a password for you... Password generated: ${passwordGenerated}`;
+document.getElementById("passwordGenerate").innerHTML = `Hi ${userName}, i generated a password for you... <br><br> Password generated: ${passwordGenerated}`;
 
 // ..................................................................
 // end
